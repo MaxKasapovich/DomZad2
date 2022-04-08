@@ -3,35 +3,6 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Car car1 = new Car();
-        car1.carBrand = "VW";
-        car1.regNumber = 1853556;
-        car1.engineVol = (float) 1.6;
-
-        Car car2 = new Car();
-        car2.carBrand = "Ford";
-        car2.regNumber = 3645618;
-        car2.engineVol = (float) 1.8;
-
-        Car car3 = new Car();
-        car3.carBrand = "Opel";
-        car3.regNumber = 75681787;
-        car3.engineVol = (float) 1.4;
-
-        Country country1 = new Country();
-        country1.birthPlace = "Odesa";
-        country1.citizenship = "Bulgarian";
-        country1.name = "Hristo Grozev";
-
-        Country country2 = new Country();
-        country2.birthPlace = "New-York";
-        country2.citizenship = "Canadian";
-        country2.name = "J.Trudo";
-
-        Country country3 = new Country();
-        country3.birthPlace = "Amsterdam";
-        country3.citizenship = "Hollander";
-        country3.name = "Klarens Zeedorf";
 
         IDCard card1 = new IDCard();
         card1.idNumber = 65678913;
@@ -48,17 +19,47 @@ public class Main {
         card3.name = "Oprah Winfrye";
         card3.gender = "Male";
 
-        car1.printIdInfo();
-        car2.printIdInfo();
-        car3.printIdInfo();
+        Country country1 = new Country();
+        country1.birthPlace = "Odesa";
+        country1.citizenship = "Ukrainian";
+        country1.name = "Ukraine";
+
+        Country country2 = new Country();
+        country2.birthPlace = "New-York";
+        country2.citizenship = "Canadian";
+        country2.name = "USA";
+
+        Country country3 = new Country();
+        country3.birthPlace = "Amsterdam";
+        country3.citizenship = "Hollander";
+        country3.name = "Holland";
+
+        Car car1 = new Car();
+        car1.carBrand = "VW";
+        car1.regNumber = 1853556;
+        car1.engineVol = (float) 1.6;
+
+        Car car2 = new Car();
+        car2.carBrand = "Ford";
+        car2.regNumber = 3645618;
+        car2.engineVol = (float) 1.8;
+
+        Car car3 = new Car();
+        car3.carBrand = "Opel";
+        car3.regNumber = 75681787;
+        car3.engineVol = (float) 1.4;
 
         card1.printIdInfo();
-        card2.printIdInfo();
-        card3.printIdInfo();
-
         country1.printIdInfo();
+        car1.printIdInfo();
+
+        card2.printIdInfo();
         country2.printIdInfo();
+        car2.printIdInfo();
+
+        card3.printIdInfo();
         country3.printIdInfo();
+        car3.printIdInfo();
 
         MyObject myFirstObject = new MyObject();
         myFirstObject.number = 10;

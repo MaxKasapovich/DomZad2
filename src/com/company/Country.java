@@ -6,7 +6,7 @@ public class Country {
     String birthPlace;
 
     void printIdInfo () {
-        System.out.println("Name " + name + "; ");
+        System.out.println("Name of the state: " + name + "; ");
         System.out.println("Citizenship: " + citizenship + ";");
         System.out.println("Place of birth:  " + birthPlace + ";");
     }
