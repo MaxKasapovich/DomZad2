@@ -37,17 +37,17 @@ public class Main {
         Car car1 = new Car();
         car1.carBrand = "VW";
         car1.regNumber = 1853556;
-        car1.engineVol = (float) 1.6;
+        car1.engineVol = 1.6f;
 
         Car car2 = new Car();
         car2.carBrand = "Ford";
         car2.regNumber = 3645618;
-        car2.engineVol = (float) 1.8;
+        car2.engineVol = 1.8f;
 
         Car car3 = new Car();
         car3.carBrand = "Opel";
         car3.regNumber = 75681787;
-        car3.engineVol = (float) 1.4;
+        car3.engineVol = 1.4f;
 
         card1.printIdInfo();
         country1.printIdInfo();
